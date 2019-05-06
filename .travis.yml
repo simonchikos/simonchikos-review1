@@ -2,12 +2,10 @@ sudo: required
 before_install:
     - sudo apt-get install cmake
     - sudo apt-get install python3-tk
-    - sudo pip3 install pillow
+    - sudo pip install pillow
 language: python
 
 python:
-    - "2.6"
-    - "2.7"
     - "3.3"
     - "3.4"
     - "3.5"
